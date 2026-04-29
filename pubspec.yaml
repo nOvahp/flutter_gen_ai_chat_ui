@@ -1,0 +1,26 @@
+name: meeting_chat_app
+description: AI Chat app for meetings and documents
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── AI Chat UI ──────────────────────────────
+  flutter_gen_ai_chat_ui: ^2.7.0
+
+  # ── HTTP & Networking ────────────────────────
+  http: ^1.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
